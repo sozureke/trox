@@ -1,0 +1,41 @@
+export enum Category {
+	ELECTRONICS,
+	FASHION,
+	HOME,
+	BOOKS,
+	TOYS,
+	VEHICLES,
+	REAL_ESTATE,
+	SERVICES,
+	SPORT,
+	PETS,
+	JEWELRY,
+	BABY_PRODUCTS,
+	MUSIC_INSTRUMENT,
+	OFFICE_SUPPLIES,
+	GAMING,
+	INDUSTRIAL,
+	EXCHANGE,
+	OTHER
+}
+
+export enum Condition {
+	NEW,
+	USED_GOOD,
+	USER_FAIR,
+	FOR_PARTS,
+	REFURBISHED
+}
+
+export enum ShippingOptions {
+	PICKUP,
+	SHIPPING,
+	PERSONAL_MEETING
+}
+
+export enum PromotionType {
+	VIP,
+	FEATURED,
+	TOP_LIST,
+	HIGHLIGHT
+}
